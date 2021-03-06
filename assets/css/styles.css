@@ -31,15 +31,19 @@
   margin-left: 16px;
 }
 
-#barYt:hover > #ytIcon {
-  color: #f00 !important;
-}
-
 #barYt:hover > #iconYt {
   color: #f00 !important;
 }
 
 #barG:hover > #iconG {
-  color: #4285F4!important;
+  color: #4285F4 !important;
+}
+
+.bar:focus-within > #iconG {
+  color: #4285F4 !important;
+}
+
+.bar:focus-within > #iconYt {
+  color: #f00 !important;
 }
 
