@@ -1,0 +1,45 @@
+.bar {
+  background-color: white;
+  margin: 0 auto;
+  height: 45px;
+  width: 500px;
+  font-size: 16px;
+  outline: none;
+  margin: 0 auto;
+  font-size: 16px;
+  border-radius: 30px;
+  border: 1px solid #dcdcdc;
+  font: 400 13.3333px Arial;
+  padding-top: .8rem;
+}
+
+.bar:hover {
+  box-shadow: 1px 1px 8px 1px #dcdcdc;
+}
+
+.bar:focus-within {
+  box-shadow: 1px 1px 8px 1px #dcdcdc;
+  outline: none;
+}
+
+.bari {
+  background-color: transparent;
+  border: none;
+  width: 80%;
+  font-size: 16px;
+  outline: none;
+  margin-left: 16px;
+}
+
+#barYt:hover > #ytIcon {
+  color: #f00 !important;
+}
+
+#barYt:hover > #iconYt {
+  color: #f00 !important;
+}
+
+#barG:hover > #iconG {
+  color: #4285F4!important;
+}
+

@@ -7,7 +7,7 @@ var input = document.getElementById("myInput");
 input.addEventListener("keyup", function(event) {
   if (event.keyCode === 13) {
    event.preventDefault();
-   document.getElementById("myBtn").click();
+   searchF();
   }
 });
 
@@ -22,6 +22,6 @@ var input = document.getElementById("myInputYt");
 input.addEventListener("keyup", function(event) {
   if (event.keyCode === 13) {
    event.preventDefault();
-   document.getElementById("myBtnYt").click();
+   searchFyt();
   }
 });
