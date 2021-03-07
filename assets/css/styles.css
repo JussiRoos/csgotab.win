@@ -47,3 +47,7 @@
   color: #f00 !important;
 }
 
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+

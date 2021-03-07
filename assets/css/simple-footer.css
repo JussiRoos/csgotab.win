@@ -1,7 +1,8 @@
 .footer-2 {
-  background-color: #231f20;
+  background-color: #1e2125;
   color: rgb(255,255,255);
-  position: absolute;
+  /*position: absolute;*/
+  position: fixed;
   bottom: 0;
   width: 100%;
 }
