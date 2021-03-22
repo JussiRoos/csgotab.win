@@ -8,8 +8,8 @@
     <meta name="description" content="Landing page for CSGO. Links releated to csgo with Google and YouTube search. Usefull when used as home page for in-game browser.">
     <meta property="og:type" content="website">
     <meta name="keywords" content="csgotab.win, csgotab, CSGO, tab, landing, landing page">
-    <meta property="og:image" content="assets/img/csgotab.win.png">
-    <meta name="twitter:image" content="assets/img/csgotab.win.png">
+    <meta property="og:image" content="https://csgotab.win/assets/img/csgotab.win.png">
+    <meta name="twitter:image" content="https://csgotab.win/assets/img/csgotab.win.png">
     <meta name="twitter:card" content="summary">
     <meta name="twitter:description" content="Landing page for CSGO. Links releated to csgo with Google and YouTube search. Usefull when used as home page for in-game browser.">
     <meta name="twitter:title" content="csgotab.win">
@@ -19,8 +19,11 @@
     <link rel="icon" type="image/png" sizes="512x512" href="assets/img/9233_CSGO_SN.png">
     <link rel="icon" type="image/png" sizes="512x512" href="assets/img/9233_CSGO_SN.png">
     <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
-    <link rel="stylesheet" href="assets/fonts/font-awesome.min.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+    <link rel="stylesheet" href="assets/fonts/fontawesome-all.min.css">
+    <link rel="stylesheet" href="assets/fonts/font-awesome.min.css">
+    <link rel="stylesheet" href="assets/fonts/fontawesome5-overrides.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css">
     <link rel="stylesheet" href="assets/css/simple-footer.css">
     <link rel="stylesheet" href="assets/css/styles.css">
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/Wruczek/Bootstrap-Cookie-Alert@gh-pages/cookiealert.css">
@@ -42,7 +45,7 @@
 
 <body style="background-color: #131313;position: relative;min-height: 100%;margin: 0;/*padding-bottom: 110px;*/">
     <div>
-        <h2 class="display-4 text-center" style="color: rgb(255,255,255);margin-top: 140px;">csgotab.win</h2>
+        <h2 class="display-4 text-center" data-aos="fade-up" data-aos-once="true" style="color: rgb(255,255,255);margin-top: 140px;">csgotab.win</h2>
         <div class="container d-flex d-sm-flex d-md-flex d-lg-flex d-xl-flex justify-content-center justify-content-sm-center justify-content-md-center justify-content-lg-center justify-content-xl-center align-items-xl-start" style="margin-bottom: 80px;margin-top: 5%;">
             <div id="barG" class="bar"><i class="fa fa-search" id="iconG" style="color: rgb(95,99,104);font-size: 16px;margin-left: 16px;"></i><input class="bari" type="text" placeholder="Search On Google" id="myInput"/></div>
         </div>
@@ -78,8 +81,7 @@
         <div class="container">
             <div class="row">
                 <div class="col">
-                    <p class="text-center" style="font-size: 12px;color: rgba(255,255,255,0.5);margin-bottom: 0px;">Use <strong>csgotab.win</strong>&nbsp;as the home page with in-game browser.&nbsp;<strong>csgotab.win</strong>&nbsp;has all important links releated to csgo and it also includes Google and YouTube searches. Feedback via steam group
-                        discussions.<br></p>
+                    <p class="text-center" style="font-size: 12px;color: rgba(255,255,255,0.5);margin-bottom: 0px;">Use <strong>csgotab.win</strong>&nbsp;as the home page with in-game browser.&nbsp;<strong>csgotab.win</strong>&nbsp;has all important links releated to csgo and it also includes Google and YouTube searches. Feedback via steam group discussions.<br></p>
                     <p class="text-center" style="font-size: 12px;color: rgba(255,255,255,0.5);margin-bottom: 0px;margin-top: 8px;"><strong>csgotab.win</strong>&nbsp;is in no way or form affiliated with&nbsp;<strong>CSGO</strong>,&nbsp;<strong>VALVE</strong>,&nbsp;<strong>Google</strong>,&nbsp;<strong>YouTube</strong>&nbsp;or<strong>&nbsp;Any of the linked sites</strong>.<br></p>
                 </div>
             </div>
@@ -87,12 +89,14 @@
                 <div class="col-8 col-sm-6 col-md-6">
                     <p class="text-left" style="margin-top: 2%;margin-bottom: 2%;font-size: 12px;color: rgba(255,255,255,0.5);">© 2021 <strong>csgotab.win</strong></p>
                 </div>
-                <div class="col-12 col-sm-6 col-md-6"><a class="stretched-link d-flex d-sm-flex d-md-flex d-xl-flex justify-content-end justify-content-sm-end justify-content-md-end justify-content-xl-end text-right" href="https://steamcommunity.com/groups/csgotabwin" style="margin-top: 2%;margin-bottom: 2%;font-size: 12px;color: rgba(255,255,255,0.5);">Steam Group</a></div>
+                <div class="col-12 col-sm-6 col-md-6"><a class="stretched-link d-flex d-sm-flex d-md-flex d-xl-flex justify-content-end justify-content-sm-end justify-content-md-end justify-content-xl-end text-right" style="margin-top: 2%;margin-bottom: 2%;font-size: 12px;color: rgba(255,255,255,0.5);" href="https://steamcommunity.com/groups/csgotabwin"><i class="fab fa-steam d-flex d-sm-flex d-lg-flex d-xl-flex align-items-end align-items-sm-end align-items-lg-end align-items-xl-end" style="margin-right: 2px;margin-bottom: 2px;"></i>Steam Group</a></div>
             </div>
         </div>
     </div>
     <script src="assets/js/jquery.min.js"></script>
     <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+    <script src="assets/js/bs-init.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
     <script src="assets/js/js.js"></script>
 </body>
 
