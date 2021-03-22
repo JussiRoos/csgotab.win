@@ -51,3 +51,23 @@
   box-sizing: inherit;
 }
 
+.btn-dark {
+  color: #fff;
+  background-color: #333333;
+  border-color: rgba(0,0,0,0);
+}
+
+.btn-dark {
+  color: #fff;
+  background-color: #333333;
+}
+
+.btn-dark:hover {
+  background-color: #DC3545;
+}
+
+.btn {
+  /*margin-bottom: 10px;*/
+  /*padding-bottom: 10px;*/
+}
+
