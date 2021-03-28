@@ -60,6 +60,7 @@
 .btn-dark {
   color: #fff;
   background-color: #333333;
+  height: 100%;
 }
 
 .btn-dark:hover {
